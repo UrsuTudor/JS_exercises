@@ -3,3 +3,7 @@ function add7(a) {
 }
 
 console.log(add7 (3))
+
+let multiply = (a, b) => a * b
+
+console.log(multiply(2, 3))
