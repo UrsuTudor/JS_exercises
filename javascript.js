@@ -28,3 +28,10 @@ function capitalize2(_string) {
 }
 
 console.log(capitalize2(lowercase))
+
+function lastLetter(_string) {
+    return _string.slice(-1)
+}
+
+console.log(lastLetter(lowercase))
+console.log(lastLetter('I like dogs'))
